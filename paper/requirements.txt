@@ -1,0 +1,9 @@
+-r ../requirements.txt
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.5.3
+requests==2.32.5
+openpyxl==3.1.5
+# optional: revision/lib.py uses it for multiplicative replacement and falls back
+# to its own implementation (same numbers to ~1e-12) if it is missing
+scikit-bio==0.7.0

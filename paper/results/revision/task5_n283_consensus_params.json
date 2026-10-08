@@ -1,0 +1,15 @@
+{
+  "en": {
+    "C": 1.0,
+    "l1_ratio": 0.7
+  },
+  "rf": {
+    "max_depth": 5,
+    "n_estimators": 500
+  },
+  "xgb": {
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "n_estimators": 100
+  }
+}

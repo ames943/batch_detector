@@ -1,0 +1,20 @@
+{
+  "title": "batch_detector: chance-calibrated cohort-effect diagnostics for multi-cohort omics",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Garg, Amey",
+      "affiliation": "Santa Clara High School"
+    }
+  ],
+  "description": "When you combine public cohorts to get more samples, the cohorts usually differ from each other (sequencer, site, protocol, patient mix) by more than the biology you care about. batch_detector.py measures this. For the cohort labels and for the response labels it runs PERMANOVA on Aitchison distances, subtracts the amount of R2 you would get from random labels, and reports the two effects side by side with a GO / CAUTION / NO-GO pooling recommendation and a power estimate. It is one Python file and works on any samples by features table.",
+  "keywords": [
+    "cohort effects",
+    "batch effects",
+    "microbiome",
+    "PERMANOVA",
+    "immunotherapy"
+  ]
+}

@@ -1,0 +1,2 @@
+n_c4	E0_c4	observed_delta_R2_c4	dirichlet_boot_median_delta_R2	dirichlet_boot_95pct_upper_bound_delta_R2	closest_calibrated_delta_used_for_lookup	n_for_80pct_power_at_bound	n_bootstrap_reps
+165	0.006097560975609756	0.000533	0.0020710966349110193	0.007805570491607095	0.01	130.63829787234044	500

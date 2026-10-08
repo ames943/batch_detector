@@ -1,0 +1,2 @@
+dataset	n	factor	n_groups	F_stat	p_value	n_perms	dispersion_homogeneous	group_dispersions
+C4_alone	165	site	5	2.2805	0.12	999	True	{'Barcelona': 41.9887, 'Leeds': 43.0307, 'Manchester': 46.3416, 'PRIMM-NL': 46.9995, 'PRIMM-UK': 46.4595}

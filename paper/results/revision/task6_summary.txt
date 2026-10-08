@@ -1,0 +1,4 @@
+Genera tested (>=2 cohorts): 125
+FDR q < 0.05: 0
+Mean I2: 14.4%
+FDR-significant genera: []

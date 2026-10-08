@@ -1,0 +1,16 @@
+dataset	level	n	factor	groups	R2	E0	delta_R2	p_value	note
+genus_n39	genus	39	response	2	0.026745	0.026316	0.00043	0.419	
+genus_n79	genus	79	response	2	0.011	0.012821	-0.001821	0.736	
+genus_n79	genus	79	cohort	2	0.084909	0.012821	0.072088	0.001	
+genus_n118	genus	118	response	2	0.006791	0.008547	-0.001756	0.874	
+genus_n118	genus	118	cohort	3	0.076773	0.017094	0.059679	0.001	
+genus_n283	genus	283	response	2	0.003876	0.003546	0.00033	0.284	
+genus_n283	genus	283	cohort	4	0.10563	0.010638	0.094992	0.001	
+phylum_n118	phylum	118	response	2	0.006601	0.008547	-0.001946	0.629	
+phylum_n118	phylum	118	cohort	3	0.056913	0.017094	0.039819	0.001	
+species_n118	species	118	response	2	0.008035	0.008547	-0.000512	0.595	
+species_n118	species	118	cohort	3	0.07402	0.017094	0.056926	0.001	
+tumor_n223	gene_flags	223	response	2	0.011999	0.004505	0.007494	0.003	
+tumor_n223	gene_flags	223	cohort	3	0.142732	0.009009	0.133723	0.001	
+duvallet_n570	genus	570	response	2	0.006184	0.001757	0.004427	0.001	
+duvallet_n570	genus	570	cohort	4	0.244558	0.005272	0.239286	0.001	

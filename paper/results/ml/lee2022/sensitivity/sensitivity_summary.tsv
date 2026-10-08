@@ -1,0 +1,6 @@
+variant	n	auc	perm_mean	perm_std	perm_p	n_perms	significant
+V1 Baseline (prev=10%, top-100)	165	0.5702	0.4944	0.0658	0.1194	200	False
+V2 Stricter prevalence (prev=20%, top-100)	165	0.5933	0.4927	0.0657	0.0796	200	False
+V3 Top-50 features (prev=10%, top-50)	165	0.5619	0.4957	0.0834	0.1841	200	False
+V4 Rarefaction (1M reads, prev=10%, top-100)	165	0.6508	0.4976	0.1006	0.0647	200	False
+V5 Subset PRIMM-UK+NL+MCR (n=135)	135	0.5632	0.483	0.0729	0.1194	200	False

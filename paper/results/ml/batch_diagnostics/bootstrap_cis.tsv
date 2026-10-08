@@ -1,0 +1,10 @@
+metric	n	point_estimate	ci_lower	ci_upper	n_boot	method	notes
+PERMANOVA_response_R2	n=39	0.026745	0.018109	0.029493	1000	dirichlet	point inside CI; Dirichlet bootstrap valid for weak per-sample signal
+PERMANOVA_response_R2	n=79	0.011	0.008624	0.013673	1000	dirichlet	point inside CI; Dirichlet bootstrap valid for weak per-sample signal
+PERMANOVA_response_R2	n=118	0.006791	0.005433	0.008709	1000	dirichlet	point inside CI; Dirichlet bootstrap valid for weak per-sample signal
+PERMANOVA_batch_R2	n=79	0.084909	0.061963	0.079175	1000	dirichlet	point ABOVE CI upper bound; per-sample independent resampling underestimates structured within-cohort correlation from platform effects. Dirichlet CI is a lower bound on true uncertainty; observed R2 should be interpreted as a robust lower bound on the batch effect size.
+PERMANOVA_batch_R2	n=118	0.076773	0.059791	0.07221	1000	dirichlet	point ABOVE CI upper bound; per-sample independent resampling underestimates structured within-cohort correlation from platform effects. Dirichlet CI is a lower bound on true uncertainty; observed R2 should be interpreted as a robust lower bound on the batch effect size.
+LOOCV_AUC_ENet	n=39	0.447222	0.245922	0.646774	1000	patient_resample	point inside CI; patient-level resampling valid, no duplicate-distance issue
+LOOCV_AUC_ENet	n=79_uncorrected	0.40034	0.268874	0.545131	1000	patient_resample	point inside CI; patient-level resampling valid, no duplicate-distance issue
+LOOCV_AUC_ENet	n=79_combat	0.35068	0.220075	0.478277	1000	patient_resample	point inside CI; patient-level resampling valid, no duplicate-distance issue
+LOOCV_AUC_RF	n=118_combat	0.542101	0.425115	0.650252	1000	patient_resample	point inside CI; patient-level resampling valid, no duplicate-distance issue
