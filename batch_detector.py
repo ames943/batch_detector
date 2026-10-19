@@ -40,7 +40,7 @@ import pandas as pd
 from scipy.spatial.distance import pdist, squareform
 from scipy.stats import norm as sp_norm
 
-__version__ = "2.0.0"
+__version__ = "2.0.1"
 
 logging.basicConfig(
     level=logging.INFO,

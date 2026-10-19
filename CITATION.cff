@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below."
 title: "batch_detector: chance-calibrated cohort-effect diagnostics for multi-cohort omics"
-version: 2.0.0
-date-released: 2026-10-07
+version: 2.0.1
+doi: 10.5281/zenodo.23226392
+date-released: 2026-10-19
 license: MIT
 repository-code: "https://github.com/ames943/batch_detector"
 type: software
@@ -21,3 +22,14 @@ keywords:
   - microbiome
   - PERMANOVA
   - immunotherapy
+preferred-citation:
+  type: article
+  title: "Cohort Effects, Not Treatment Response, Dominate Public Immunotherapy Cohorts: Evidence from Microbiome and Tumor Genomic Data"
+  authors:
+    - family-names: Garg
+      given-names: Amey
+      affiliation: "Santa Clara High School"
+  year: 2026
+  doi: 10.5281/zenodo.23484820
+  publisher:
+    name: Zenodo

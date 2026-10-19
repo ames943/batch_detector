@@ -13,7 +13,7 @@ and a power estimate. It is one Python file and works on any samples × features
 table (microbiome counts, or other omics data that make sense under a CLR
 transform or as plain Euclidean features).
 
-Version 2.0.0. MIT license.
+Version 2.0.1. MIT license.
 
 The `paper/` folder holds the scripts and result files behind the paper this
 tool came from. You do not need it to use the tool.
@@ -220,12 +220,10 @@ The tests take a few seconds.
 
 If you use this tool, please cite the paper:
 
-- Garg A. *Cohort Effects, Not Treatment Response, Dominate Public
-  Immunotherapy Cohorts: Evidence from Microbiome and Tumor Genomic Data.*
-  arXiv:XXXX.XXXXX.
+- Garg A. *Cohort Effects, Not Treatment Response, Dominate Public Immunotherapy Cohorts: Evidence from Microbiome and Tumor Genomic Data.* Preprint, Zenodo, 2026. https://doi.org/10.5281/zenodo.23484820
 - A shorter version is to appear in the IEEE BIBM 2026 Workshop Proceedings.
 
-`CITATION.cff` has the software citation. A Zenodo DOI will be added after the first release.
+`CITATION.cff` has the software citation. Software archive (all versions): https://doi.org/10.5281/zenodo.23226392
 
 ## License
 

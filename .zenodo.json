@@ -1,7 +1,7 @@
 {
   "title": "batch_detector: chance-calibrated cohort-effect diagnostics for multi-cohort omics",
   "upload_type": "software",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "mit",
   "creators": [
     {
@@ -16,5 +16,13 @@
     "microbiome",
     "PERMANOVA",
     "immunotherapy"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23484820",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    }
   ]
 }

@@ -4,7 +4,7 @@ Scripts, processed inputs and result files behind
 
 > Garg A. *Cohort Effects, Not Treatment Response, Dominate Public
 > Immunotherapy Cohorts: Evidence from Microbiome and Tumor Genomic Data.*
-> arXiv:XXXX.XXXXX. (A shorter version is to appear in the IEEE BIBM 2026
+> https://doi.org/10.5281/zenodo.23484820 (A shorter version is to appear in the IEEE BIBM 2026
 > Workshop Proceedings.)
 
 You do not need any of this to use `batch_detector.py`.

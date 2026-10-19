@@ -144,7 +144,7 @@ def test_help_and_version():
     out = subprocess.run([sys.executable, str(ROOT / "batch_detector.py"), "--version"],
                          capture_output=True, text=True)
     assert out.stdout.strip().endswith(bd.__version__)
-    assert bd.__version__ == "2.0.0"
+    assert bd.__version__ == "2.0.1"
 
 
 def test_no_hardcoded_paths():
